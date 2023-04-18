@@ -8,6 +8,7 @@ int main(){
     while(ch[count]!='\0'){
         count++;
     }
+    printf("\nString size: %d\n",count);
     int i=0,j=count-1;
     while(i<j){
         char temp=ch[i];
